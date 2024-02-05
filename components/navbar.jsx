@@ -14,6 +14,9 @@ export default function NavBar() {
           <li className="text-3xl font-bold bg-gray-600 p-3 rounded-lg ml-2">
             <Link href="/guesture">Guesture</Link>
           </li>
+          <li className="text-3xl font-bold bg-gray-600 p-3 rounded-lg ml-2">
+            <Link href="/codewithyousaif">yousaif-course</Link>
+          </li>
         </ul>
       </nav>
     </div>

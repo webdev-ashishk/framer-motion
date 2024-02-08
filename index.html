@@ -3,71 +3,35 @@
   <head>
     <title>css-test</title>
     <style>
-      .box {
-        margin-top: 50px;
-        border: 2px solid red;
-        background: yellow;
-        height: 400px;
+      .box1,
+      .box2 {
+        height: 600px;
       }
-      .blue {
-        position: fixed;
-        top: 10px;
-        left: 40px;
-        background-color: blue;
-        width: 100px;
-        height: 100px;
-        color: white;
-        padding-top: 50px;
-        text-align: center;
-      }
-      .red {
-        position: relative;
-        background-color: red;
-        width: 100px;
-        height: 100px;
-        color: white;
-        padding-top: 50px;
-        text-align: center;
-      }
-      .black {
-        position: relative;
-        background-color: black;
-        width: 100px;
-        height: 100px;
-        color: white;
-        padding-top: 50px;
-        text-align: center;
-      }
-      .h2tag {
-        background-color: gray;
-        height: 50px;
-        margin-right: 100px;
-        border-radius: 10px;
-        padding: 20px;
+      .box1 {
+        background-color: purple;
       }
       .box2 {
-        background-color: aquamarine;
-        height: 100vh;
+        background-color: blueviolet;
       }
-      .text {
+      .parent {
+        background-color: peachpuff;
+        position: relative;
+        border: 2px solid red;
+      }
+      .parent h1 {
         position: absolute;
-        top: 10px;
+        bottom: 250px;
+        left: 10px;
+        background-color: rgb(125, 125, 125);
       }
     </style>
   </head>
   <body>
-    <h1>css</h1>
-    <div class="box">
-      box1
-      <div class="blue">blue</div>
-      <div class="red">red</div>
-      <div class="black">black</div>
-    </div>
+    <div class="box1">box1</div>
     <div class="box2">box2</div>
-    <div class="imagediv">
+    <div class="parent">
       <img src="./nature.jpg" height="400px" alt="nature" />
-    </div>
-    <div class="text">
+
       <h1>This is div should be placed over the image</h1>
     </div>
   </body>

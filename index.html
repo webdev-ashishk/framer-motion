@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>css-test</title>
+    <style>
+      .box {
+        margin-top: 50px;
+        border: 2px solid red;
+        background: yellow;
+        height: 400px;
+      }
+      .blue {
+        position: fixed;
+        top: 10px;
+        left: 40px;
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        color: white;
+        padding-top: 50px;
+        text-align: center;
+      }
+      .red {
+        position: relative;
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        color: white;
+        padding-top: 50px;
+        text-align: center;
+      }
+      .black {
+        position: relative;
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        color: white;
+        padding-top: 50px;
+        text-align: center;
+      }
+      .h2tag {
+        background-color: gray;
+        height: 50px;
+        margin-right: 100px;
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .box2 {
+        background-color: aquamarine;
+        height: 100vh;
+      }
+      .text {
+        position: absolute;
+        top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>css</h1>
+    <div class="box">
+      box1
+      <div class="blue">blue</div>
+      <div class="red">red</div>
+      <div class="black">black</div>
+    </div>
+    <div class="box2">box2</div>
+    <div class="imagediv">
+      <img src="./nature.jpg" height="400px" alt="nature" />
+    </div>
+    <div class="text">
+      <h1>This is div should be placed over the image</h1>
+    </div>
+  </body>
+</html>

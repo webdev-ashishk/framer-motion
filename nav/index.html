@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>header</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      nav > ul {
+        height: 70px;
+        display: flex;
+        position: absolute;
+      }
+      nav > ul > li {
+        border: "2px solid red";
+        padding: 20px;
+        color: white;
+        font-size: 50px;
+      }
+      #parent {
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="parent">
+      <nav>
+        <ul>
+          <li>home</li>
+          <li>about</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+      <div class="image">
+        <img src="./nature.jpg" alt="" />
+      </div>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .task2 {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        font-size: 50px;
+        margin: 10px;
+        text-align: center;
+        background-color: red;
+        animation-name: moveDiv;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes moveDiv {
+        0% {
+          background-color: red;
+          top: 0%;
+          left: 0%;
+        }
+        25% {
+          background-color: green;
+          top: 0px;
+          left: 300px;
+        }
+        50% {
+          background-color: blue;
+          top: 300px;
+          left: 300px;
+        }
+        75% {
+          background-color: yellow;
+          left: 0px;
+          top: 300px;
+        }
+        100% {
+          left: 0px;
+          top: 0px;
+        }
+      }
+    </style>
+    <title>task2</title>
+  </head>
+  <body>
+    <div class="task2">move a div</div>
+  </body>
+</html>
